@@ -6,6 +6,8 @@ public class Main {
       copy.printUsage();
     } else if (args.length == 1) {
       copy.printNoDestination();
+    } else if (args.length == 2) {
+      copy.printFiletoOther(args);
     }
   }
 }
