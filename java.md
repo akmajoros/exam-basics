@@ -47,4 +47,6 @@ The application is accepted if:
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+[constructors are used to create objects from the class blueprint. The declaration of the constructor is similar to the method declarations but they use the name of the class 
+and have no return type. When creating a new object, the constructor will be called by the "new" operator  and in the argument part the variables of the class can be defined for that particular Object
+It is also possible to have no-argument constructors where no variables will be defined.]
