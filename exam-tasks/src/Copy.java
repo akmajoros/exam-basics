@@ -1,7 +1,6 @@
-package Copy;
-
 public class Copy {
-  public void printUsage() {
+
+  public void printUsage(String[] args) {
     System.out.println("copy [source] [destination]");
   }
 }
