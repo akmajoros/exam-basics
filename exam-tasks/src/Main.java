@@ -3,7 +3,9 @@ public class Main {
     Copy copy = new Copy();
 
     if (args.length == 0) {
-      copy.printUsage(args);
+      copy.printUsage();
+    } else if (args.length == 1) {
+      copy.printNoDestination();
     }
   }
 }
