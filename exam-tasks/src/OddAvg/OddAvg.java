@@ -7,9 +7,6 @@ public class OddAvg {
   public static void main(String[] args) {
     OddAvg oddAvg = new OddAvg();
     List<Integer> arrayList = new ArrayList<>();
-    for (int i = 1; i < 10; i++) {
-      arrayList.add(i);
-    }
     arrayList.add(5);
     arrayList.add(13);
     arrayList.add(14);
