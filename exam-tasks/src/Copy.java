@@ -21,7 +21,7 @@ public class Copy {
         System.out.println(content.get(i));
       }
     } catch (Exception e){
-      System.out.println("I'm sorry, I could not read the file");
+      System.out.println("I'm sorry, I am unable to read the file");
     }
   }
 }
