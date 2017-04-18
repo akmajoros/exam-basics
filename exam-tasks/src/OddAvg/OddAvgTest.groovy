@@ -26,12 +26,12 @@ class OddAvgTest {
     }
 
     @Test
-    public void testWithLoop{
+    public void testWithLoop() {
         OddAvg oddAvg = new OddAvg();
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             list.add(i);
         }
-        assertEquals(1, oddAvg.oddsAverage(list));
+        assertEquals(5, oddAvg.oddsAverage(list));
     }
 }
